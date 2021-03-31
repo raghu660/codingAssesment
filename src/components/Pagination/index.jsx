@@ -14,7 +14,8 @@ const PaginationWrapper = ({activePage = 1, totalItemsCount, onPageChange}) => {
             nextPageText='next'
             firstPageText='first'
             lastPageText='last'
-            
+            activePage={activePage}
+            itemsCountPerPage={10}
             totalItemsCount={totalItemsCount}
             pageRangeDisplayed={5}
             onChange={onChange}
